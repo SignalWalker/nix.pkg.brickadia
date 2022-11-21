@@ -76,27 +76,10 @@
         "type": "github"
       }
     },
-    "omegga": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1659672027,
-        "narHash": "sha256-UiDfkLWpqTDqNRzZW/rYoA8SMK6NA/i1ZdfVBx52RhY=",
-        "owner": "brickadia-community",
-        "repo": "omegga",
-        "rev": "d99b4da322adbe51ea9dc459580d407debd0d146",
-        "type": "github"
-      },
-      "original": {
-        "owner": "brickadia-community",
-        "repo": "omegga",
-        "type": "github"
-      }
-    },
     "root": {
       "inputs": {
         "alejandra": "alejandra",
-        "nixpkgs": "nixpkgs",
-        "omegga": "omegga"
+        "nixpkgs": "nixpkgs"
       }
     },
     "rust-analyzer-src": {
