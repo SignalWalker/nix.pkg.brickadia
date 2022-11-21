@@ -32,7 +32,7 @@
 				semver = "1.5";
 				hash = "sha256-drEFLH5/4qNpwG4R3UNdw97imeG/7QRIo6Mgqibk7oo=";
 			};
-		in pkgs.gcc12Stdenv.mkDerivation {
+		in pkgs.gccStdenv.mkDerivation {
 			pname = "brickadia-launcher";
 			version = version.semver;
 			src = pkgs.fetchurl {
