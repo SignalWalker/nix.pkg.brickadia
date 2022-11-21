@@ -6,10 +6,6 @@
       url = github:kamadorueda/alejandra;
       inputs.nixpkgs.follows = "nixpkgs";
     };
-	omegga = {
-		url = "github:brickadia-community/omegga";
-		flake = false;
-	};
   };
   outputs = inputs @ {
     self,
